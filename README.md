@@ -1,18 +1,45 @@
-# Steps
-## 1. Package Install
-`npm i nodemon jsonwebtoken express cors dotenv`
 
-## 2. Write Base Code
-`Initializing Packages`
-'Import env variables'
-'Writing using express and listening to app variable'
+# JWT using nodejs
 
-## 3. Write Base route code for JWT testing
-'Creating route file'
-'Importing the route file in index.js'
-'Created Route for Login Page to Generate Token'
-'Created Protected Route for JWT data'
+This project uses JWT to generate a token on loging in.
+After Login the client will generate a token which then will be used to access data to a protected route.
 
 
+## Run Locally
 
+Clone the project
+
+```bash
+  git clone https://github.com/devortify/jwt-nodejs.git
+```
+
+Go to the project directory
+
+```bash
+  cd jwt-nodejs
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server using nodemon
+
+```bash
+  npm run dev
+```
+
+
+## Environment Variables
+
+To run this project, you will need to add the following environment variables to your .env file
+
+`PORT`
+
+
+## Tech Stack
+
+**Server:** Node, Express, MongoDB
 
